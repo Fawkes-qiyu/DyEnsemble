@@ -1,4 +1,4 @@
-Offical implementation of **Dynamic Ensemble Model(DyEnsemble)** neural decoding algorithm (NeurIPS 2019). 
+Offical implementation of **Dynamic Ensemble (DyEnsemble)** neural decoding algorithm (NeurIPS 2019). 
 
 > Qi, Y., Liu, B., Wang, Y., & Pan, G. (2019). Dynamic ensemble modeling approach to nonstationary neural decoding in Brain-computer interfaces. In Advances in Neural Information Processing Systems (pp. 6089-6098).
 
