@@ -1,16 +1,12 @@
-# DyEnsemble
-
-### 0 Introduction
-
-This repository is a simple implementation of **Dynamic Ensemble Model(DyEnsemble)** which is published at NIPS 2019.
+Offical implementation of **Dynamic Ensemble Model(DyEnsemble)** neural decoding algorithm (NeurIPS 2019). 
 
 > Qi, Y., Liu, B., Wang, Y., & Pan, G. (2019). Dynamic ensemble modeling approach to nonstationary neural decoding in Brain-computer interfaces. In Advances in Neural Information Processing Systems (pp. 6089-6098).
 
-### 1 Design and Usage
+Implemented by Zhuo Chen (Zhejiang University, https://github.com/zhuo34).
 
-The Dynamic Ensemble Model is implemented as class `DyEnsemble` which is modified from class `ParticleFilter`. In order to represent transition and measurement models(functions) in DyEnsemble, I create two abstract base classes named `DyEnsembleTModel` and `DyEnsembleMModel`, respectively.
+### How to run it
 
-Now, I will use an example to show you how to use my `DyEnsemble` with codes in `main.py`.
+Here is an example for how to run `DyEnsemble` with codes in `main.py`.
 
 **Firstly**, create customized transition functions and measurement functions by inheriting `DyEnsembleTModel` and `DyEnsembleMModel`. In this example, transition functions and measurement functions are shown as follows.
 
